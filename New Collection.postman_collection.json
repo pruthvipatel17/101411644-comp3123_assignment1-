@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "38407855-8a92-4d07-b0a8-d4900d8a73f5",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38985066"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3031/api/v1/emp/employees/670c8355e288698d73900e5e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3031/api/v1/emp/employees/670c8355e288698d73900e5e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"emp",
+						"employees",
+						"670c8355e288698d73900e5e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3031/api/v1/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"username\": \r\n\"johndoe\",\r\n \"email\": \r\n\"johndoe@example.com\",\r\n \"password\": \r\n\"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3031/api/v1/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3031/api/v1/emp/employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"first_name\": \"John\",\r\n  \"last_name\": \"Doe\",\r\n  \"email\": \"john.doe@example.com\",\r\n  \"gender\": \"Male\",\r\n  \"salary\": 50000,\r\n  \"position\": \"Developer\",\r\n  \"department\": \"IT\",\r\n  \"date_of_joining\": \"2023-10-13\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3031/api/v1/emp/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"emp",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3031/api/v1/emp/employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3031/api/v1/emp/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"emp",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3031/api/v1/emp/employees/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3031/api/v1/emp/employees/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"emp",
+						"employees",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3031/api/v1/emp/employees/670c8355e288698d73900e5e",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"position\": \r\n\"Senior Designer\",\r\n \"salary\": 95000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3031/api/v1/emp/employees/670c8355e288698d73900e5e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"emp",
+						"employees",
+						"670c8355e288698d73900e5e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3031/api/v1/emp/employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"first_name\": \r\n\"Alice\",\r\n \"last_name\": \r\n\"Johnson\",\r\n \"email\": \r\n\"alice.johnson@example.com\",\r\n \"position\": \r\n\"Designer\",\r\n \"salary\": \r\n85000,\r\n \r\n\"date_of_joining\": \r\n\"2023-08-10T00:00:00.000Z\",\r\n \"department\": \r\n\"Design\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3031/api/v1/emp/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3031",
+					"path": [
+						"api",
+						"v1",
+						"emp",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

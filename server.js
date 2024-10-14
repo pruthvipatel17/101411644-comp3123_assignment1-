@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3031;
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://user:12345@cluster0.jjyyp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://pruthvi:1719@cluster0.orjds.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     // options removed as they are deprecated
 }).then(() => {
     console.log('Connected to MongoDB');
